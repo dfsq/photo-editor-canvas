@@ -1,0 +1,31 @@
+{
+  "name": "photo-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html -p 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@agilie/canvas-image-cover-position": "^1.1.1",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-preset-es2017": "^6.24.1",
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.22.9",
+    "typescript": "^3.5.3"
+  },
+  "browserslist": [
+    "Chrome 72"
+  ],
+  "alias": {
+    "src": "./src"
+  }
+}
